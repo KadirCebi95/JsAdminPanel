@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="login.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-lg-6">
+
+
+                <form>
+                    <h1>Kayıt</h1>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email</label>
+                      <input type="text" class="form-control" id="kayitEmail" aria-describedby="emailHelp" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Şifre</label>
+                      <input type="password" class="form-control" id="kayitSifre" placeholder="Şifre">
+                    </div>
+                    <button type="button" onclick="kayit()" class="btn btn-primary mt-4">Gönder</button>
+                  </form>
+                </div>
+
+
+
+                <div class="col-lg-6">
+                    <form>
+                        <h1>Login</h1>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email</label>
+                          <input type="text" class="form-control" id="girisEmail" aria-describedby="emailHelp" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Şifre</label>
+                          <input type="password" class="form-control" id="girisSifre" placeholder="Şifre">
+                        </div>
+                        <button type="button" onclick="login()" class="btn btn-primary mt-4">Gönder</button>
+                      </form>
+                    </div>
+</div>
+</div>
+</body>
+</html>
+
+<!--
+    1 - Eticaret Admin Paneli
+    2 - Kategorili Blog Admin Paneli
+    3 - Kategorisi Admin Paneli
+-->
